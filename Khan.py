@@ -146,14 +146,14 @@ print  """\033[1;91m    ___    _____  ___    _   _  ___    _   _  _____  _   _
 
     """
 typing1('\033[1;94m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█')    
-print('\033[1;92m                     Owner:-    \033[1;93mBad§hah')
-print('\033[1;92m                     Github:-   \033[1;93mSac56')
-print('\033[1;92m                     Whatsapp:- \033[1;93m+977-9845844301')
+print('\033[1;92m                     Owner:-    \033[1;93mHabib')
+print('\033[1;92m                     Github:-   \033[1;93mHabibkhan288')
+print('\033[1;92m                     Whatsapp:- \033[1;93m03492109288')
 print logo3
 
 #Password#
-CorrectUsername ="Habib" #Username Habib
-CorrectPassword ="Khan" #Password Khan
+CorrectUsername ="Habib" #Username
+CorrectPassword ="Khan" #Password 
 
 loop = 'true'
 while (loop == 'true'):
@@ -161,15 +161,15 @@ while (loop == 'true'):
     if (username == CorrectUsername):
     	password = raw_input("\033[1;91m \x1b[1;91mPassword\x1b[1;91m:- \x1b[1;97m")
         if (password == CorrectPassword):
-            typing2(' ~~~~~~~~~~~~~<Logged in successfully as Badhshah>~~~~~~~~~~~~')
+            typing2(' ~~~~~~~~~~~~~<Logged in successfully as Habibkhan>~~~~~~~~~~~~')
 	    time.sleep(2)
             loop = 'false'
         else:
             print "\033[1;93m Wrong Password"
-            os.system('xdg-open https://www.youtube.com/channel/UCtSuqtW3IouefleSsYyfh8Q')
+            os.system('xdg-open https://www.facebook.com/profile.php?id=100009184174557
     else:
         print "\033[1;94m Wrong Username"
-        os.system('xdg-open https://www.facebook.com/sachin.shrivastv.71')
+        os.system('xdg-open https://www.facebook.com/profile.php?id=100009184174557
         
 def login():
 	os.system('clear')
@@ -295,9 +295,8 @@ def pilih():
 		print logo
 		print logo2
 		print logo3
-		print "\033[1;92mOwner:- \033[1;93mBadhshah"
-		print "\033[1;92mEditor:- \033[1;93mSachin Shrivastv"
-		print "\033[1;92mEmail:- \033[1;93msachinshrivastv152207@gmail.com"
+		print "\033[1;92mOwner:- \033[1;93mHabibKhan"
+		print "\033[1;92mEditor:- \033[1;93mBigra phatan"
 		print logo3
 		raw_input("\n\033[1;92m[\033[1;91mBack\033[1;96m]")
 		menu()		
